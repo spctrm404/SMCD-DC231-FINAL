@@ -22,6 +22,10 @@ header {
 
 nav {
   .wrapper {
+    h2 {
+      grid-column: 1 / -1;
+      text-align: center;
+    }
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
@@ -35,19 +39,10 @@ nav {
   body {
     font-size: 16px;
   }
-
-  .wrapper {
-    padding-inline: 1rem;
-  }
-
   nav {
     .wrapper {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(4, 1fr);
-
-      .fullColumn {
-        grid-column: 1;
-      }
+      padding-inline: 1rem;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 }
