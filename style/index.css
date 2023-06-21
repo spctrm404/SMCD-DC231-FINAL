@@ -134,6 +134,46 @@ a.btn--width-stretch,
 .btn--width-stretch {
   width: 100%;
 }
+a.btn.late,
+.btn.late {
+  color: var(--btn-error-txt);
+}
+a.btn.late::after,
+.btn.late::after {
+  background-color: var(--btn-error-bg);
+}
+a.btn.late:hover,
+.btn.late:hover {
+  color: var(--btn-error-txt);
+}
+a.btn.late:hover::after,
+.btn.late:hover::after {
+  background-color: var(--btn-error-bg-hover);
+}
+a.btn.late:focus,
+.btn.late:focus {
+  color: var(--btn-error-txt);
+}
+a.btn.late:focus::after,
+.btn.late:focus::after {
+  background-color: var(--btn-error-bg-focused);
+}
+a.btn.late:active,
+.btn.late:active {
+  color: var(--btn-error-txt);
+}
+a.btn.late:active::after,
+.btn.late:active::after {
+  background-color: var(--btn-error-bg-pressed);
+}
+a.btn.late.disabled,
+.btn.late.disabled {
+  color: var(--btn-error-txt-disabled);
+}
+a.btn.late.disabled::after,
+.btn.late.disabled::after {
+  background-color: var(--btn-error-bg-disabled);
+}
 a.btn--type-tonal,
 .btn--type-tonal {
   color: var(--btn-tonal-txt);

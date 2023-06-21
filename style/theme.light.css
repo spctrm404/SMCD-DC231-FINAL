@@ -27,4 +27,11 @@
   --btn-elevated-bg-disabled: #949494;
   --btn-elevated-txt: #4756b2;
   --btn-elevated-txt-disabled: #dedede;
+  --btn-error-bg: #ba1a1a;
+  --btn-error-bg-hover: #bf2c2c;
+  --btn-error-bg-focused: #b01718;
+  --btn-error-bg-pressed: #b01718;
+  --btn-error-bg-disabled: #c7bed3;
+  --btn-error-txt: #fff;
+  --btn-error-txt-disabled: #86808f;
 }

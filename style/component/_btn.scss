@@ -71,6 +71,54 @@
     width: 100%;
   }
 
+  &.late {
+    $btn-bg: var(--btn-error-bg);
+    $btn-bg-hover: var(--btn-error-bg-hover);
+    $btn-bg-focused: var(--btn-error-bg-focused);
+    $btn-bg-pressed: var(--btn-error-bg-pressed);
+    $btn-bg-disabled: var(--btn-error-bg-disabled);
+    $btn-txt: var(--btn-error-txt);
+    $btn-txt-disabled: var(--btn-error-txt-disabled);
+
+    color: $btn-txt;
+
+    &::after {
+      background-color: $btn-bg;
+    }
+
+    &:hover {
+      color: $btn-txt;
+
+      &::after {
+        background-color: $btn-bg-hover;
+      }
+    }
+
+    &:focus {
+      color: $btn-txt;
+
+      &::after {
+        background-color: $btn-bg-focused;
+      }
+    }
+
+    &:active {
+      color: $btn-txt;
+
+      &::after {
+        background-color: $btn-bg-pressed;
+      }
+    }
+
+    &.disabled {
+      color: $btn-txt-disabled;
+
+      &::after {
+        background-color: $btn-bg-disabled;
+      }
+    }
+  }
+
   &--type {
     &-tonal {
       $btn-bg: var(--btn-tonal-bg);
